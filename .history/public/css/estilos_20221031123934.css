@@ -1,0 +1,125 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {    margin: 0;    padding: 0;    border: 0;    font-size: 100%;    font: sans-serif;    vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {    display: block;}body {    line-height: 1;}ol, ul {    list-style: none;}blockquote, q {    quotes: none;}blockquote:before, blockquote:after,q:before, q:after {    content: '';    content: none;}table {    border-collapse: collapse;    border-spacing: 0;}
+
+.Header {
+    background-color: #3ac13a;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+    padding: 18px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.placar h3 {
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+
+.placar th {
+    background-color: #3ac13a;
+    padding: 20px;
+}
+
+.placar td {
+    background-color: #3ac13a40;
+    padding: 10px;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    font-size: 18px;
+    margin-bottom: 1%;
+}
+
+.resultado > span {    
+    font-weight: 600;
+}
+
+.frase {
+    padding: 3% 0;
+}
+
+.botoes {    
+    margin: 3% 0;
+}
+
+
+.campo-digitacao:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.campo-desabilitado {
+    background-color: #DCDCDC;
+    color: #808080;
+}
+
+.icones{
+    vertical-align: middle;
+}
+
+.borda-verde {
+    border: 3px solid #3ac13a;
+}
+
+.borda-vermelha {
+    border: 3px solid #db3f3f;
+}
+
+.informacoes {
+    margin-bottom: 3%;
+}
+
+.placar {
+    display: none;
+}
+
+body {
+    overflow: scroll;
+}
+
+#erro {
+    color: #db3f3f;
+    display: none;
+}
+
+#spinner {
+    display: none;
+}
+
+#frase-id {
+    width: 40px;
+}
+
+#botao-sync {
+    float: right;
+}
+
+.select-usuarios{
+    display:inline-flex;
+    margin-left: 10%;
+}
+
+#usuarios{
+    display:block;
+}
+
+.selectize-input {
+    width: 150px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+footer.Footer {
+    background-color: #3ac13a;
+    color: #FFFFFF;
+    padding: 16px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
