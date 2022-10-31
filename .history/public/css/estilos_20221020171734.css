@@ -1,0 +1,12 @@
+.frase {
+    text-align: justify;
+}
+
+.campo-desabilitado {
+    background-color: #DCDCDC;
+    color: #808080;
+}
+
+.icones{
+    vertical-align: middle;
+}
