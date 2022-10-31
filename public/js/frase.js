@@ -12,17 +12,6 @@ $(function() {
     $("#botao-frase-id").click(buscaFrase);
 });
 
-// function novaLinhaFrases() {
-//     var linha = $("<tr>");
-
-//     var colunaIDfrase = $("<td>").text('49')
-//     var colunaFrase = $("<td>").text('teste frase')
-
-//     linha.append(colunaIDfrase);
-//     linha.append(colunaFrase);
-
-//     return linha
-// }
 
 function novaLinhaFrase(id, fraseEscrita){
     var linha = $("<tr>");
@@ -41,11 +30,9 @@ function exibeFrases(data) {
     $(data).each(function(){
         var linha = novaLinhaFrase(this._id, this.texto);
 
-        console.log(this._id, this.texto);
-
         $("tbody.tbody-frases").append(linha);
     });
-    
+
 }
 
 function fraseAleatoria() {
