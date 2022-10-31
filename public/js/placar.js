@@ -68,7 +68,7 @@ function mostraPlacar() {
 
 function sincronizaPlacar(){
     var placar = [];
-    var linhas = $("tbody>tr");
+    var linhas = $(".placar.table-placar>tbody>tr");
 
     linhas.each(function(){
         var usuario = $(this).find("td:nth-child(1)").text();
@@ -112,7 +112,7 @@ function atualizaPlacar(){
 
             linha.find(".botao-remover").click(removeLinha);
 
-            $("tbody").append(linha);
+            $("tbody.tbody-placar").append(linha);
         });
     });
 }

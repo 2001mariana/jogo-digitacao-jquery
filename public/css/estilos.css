@@ -11,7 +11,7 @@ h1 {
     font-size: 3rem;
 }
 
-.placar {
+.placar, .table-frases {
     margin-bottom: 3%;
 }
 
@@ -22,6 +22,7 @@ h1 {
 
 .placar th {
     background-color: #3ac13a;
+    color: #FFFFFF;
     padding: 20px;
 }
 
@@ -47,10 +48,28 @@ h1 {
     padding: 3% 0;
 }
 
+.table-frases th {
+    background-color: #288728;
+    color: #FFFFFF;
+    padding: 12px;
+}
+
+.table-frases td {
+    background-color: #9ce09c30;
+    padding: 10px;
+}
+
+.table-frases th:nth-child(1), .table-frases td:nth-child(1) {
+    width: 15%;
+}
+
 .botoes {    
     margin: 3% 0;
 }
 
+.campo-digitacao {
+    background-color: #FFFFFF;
+}
 
 .campo-digitacao:focus {
     border: none;
@@ -84,6 +103,7 @@ h1 {
 
 body {
     overflow: scroll;
+    background-color: #d7f2d760;
 }
 
 #erro {
